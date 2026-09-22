@@ -1,0 +1,20 @@
+a = "23/07/2014"
+b = "19/04/1980"
+c = "29/08/1976"
+d = "03/03/1953"
+e = "05/02/1952"
+print (a)
+print (b)
+print (c)
+print (d)
+print (e)
+f = input ("enter your birthday: ")
+print (f)
+g = input ("enter your birthday: ")
+print (g)
+h = input ("enter your birthday: ")
+print (g)
+i = input ("enter your birthday: ")
+print (i)
+j = input ("enter your birthday: ")
+print (j)
