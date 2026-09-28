@@ -1,0 +1,10 @@
+x = 13
+if 13 < 25:
+    print (x, "is colder than 25.")
+
+
+x = 29
+if (x < 25):
+    print (x, "is colder than 25.")
+else:
+    print (x, "is hotter than 25.")
