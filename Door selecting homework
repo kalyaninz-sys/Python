@@ -1,0 +1,44 @@
+print ("Select your door: ")
+print ("1. Red door")
+print ("2. Blue door")
+print ("3. Green door")
+
+choice = int( input("Enter your choice: ") )
+
+if( choice == 1 ):
+    print( "what type of phone do you want? " )
+    print("1.iPhone Duo\n")
+    print("2.Samsung Z Fold 8\n")
+
+    choice2=int(input("Enter your choice2: "))
+    if choice2==1:
+        print("you have selected iPhone Duo")
+    else:
+        print("you have selected the Samsung Z Fold 8")
+
+
+elif( choice == 2 ):
+    print( "what type of laptop do you want?" )
+    print("1.ChromeBook")
+    print("2.MacBook Neo")
+    choice3=int(input("enter your choice3: "))
+
+    if choice3==1:
+        print("you have selected ChromeBook")
+    else:
+        print("you have selected MacBook Neo")
+
+
+elif( choice == 3 ):
+    print( "what type of headphones do you want?" )
+    print("1.Sony Headphones")
+    print("2.Airpods Pro Max")
+    choice4=int(input("enter your choice4: "))
+
+    if choice4==1:
+        print("you have selected Sony Headphones")
+    else:
+        print("you have selected Airpods Pro Max")
+
+else:
+    print("Wrong choice!")
